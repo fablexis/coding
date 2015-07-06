@@ -1,0 +1,13 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #FAF9F9;
+
+.centrado{
+  text-align: center;
+
+}
+
+.well-example {
+  font: 100% $font-stack;
+  background-color: $primary-color;
+  @extend .centrado;
+}

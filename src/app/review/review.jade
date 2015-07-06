@@ -1,0 +1,8 @@
+div(class='container') 
+  div
+    acme-navbar(creationDate='main.creationDate')
+  div(class='well well-example')
+    input(type="text" class='form-control' ng-model='comment')
+    br  
+    a(href='/#/' class='btn btn-primary btn-lg' ng-model='backButtom') Back to the home section
+    p {{comment}}
